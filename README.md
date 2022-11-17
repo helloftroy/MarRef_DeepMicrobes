@@ -3,6 +3,7 @@ Retraining of DeepMicrobes using the MarRef dataset
 ## 1) Shell Scripts
 - Bowtie: using bowtie to map reads back to reference genomes
 - Camisim: generation of the 10 blind datasets
+  - blind seeds used for generation are: 1: 404903777; 2: 574829691; 3: 886829691; 4 890329691; 5: 898479891; 6: 324106891; 7: 004106891; 8: 2047786891; 9: 104903889; 10: 104909997
 - convert_to_tfrec: convert the test, and training datasets to a tfrec format
 - download_bioproject: download SRRs for analysis
 - predict_species: run prediction on either test or blind dataset
